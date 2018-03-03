@@ -4,11 +4,13 @@ contract SimpleStorage {
 	uint myVariable;
 	
 	function set(uint x) public {
-		myVariable;
+		while(true) {
+		myVariable = x;
+		}
 	}
 
 	
-	function get() constant returns (uint) {
+	function get() constant public returns (uint) {
 		return myVariable;
 	}
 }

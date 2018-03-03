@@ -1,6 +1,6 @@
 var SimpleStorage = artifacts.require("SimpleStorage");
 
-module.export = function(deployer) {
+module.exports = function(deployer) {
 	deployer.deploy(SimpleStorage);
 };
 
