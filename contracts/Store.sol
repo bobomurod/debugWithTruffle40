@@ -4,9 +4,7 @@ contract SimpleStorage {
 	uint myVariable;
 	
 	function set(uint x) public {
-		while(true) {
 		myVariable = x;
-		}
 	}
 
 	
